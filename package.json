@@ -1,0 +1,34 @@
+{
+  "name": "react_boilerplate",
+  "version": "1.0.0",
+  "description": "Sample working with React, Typescript and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-devserver --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgrall/00_React_Boilerplate.git"
+  },
+  "author": "sgrall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgrall/00_React_Boilerplate/issues"
+  },
+  "homepage": "https://github.com/sgrall/00_React_Boilerplate#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^1.2.1",
+    "typescript": "^2.0.10",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3",
+    "webpack-devserver": "0.0.6"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
